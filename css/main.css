@@ -1,0 +1,79 @@
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.img-flex {
+  max-height: 500px;
+  display: block;
+  width: 100%;
+  padding-top: .01rem;
+}
+
+.banner {
+  overflow: hidden;
+  max-height: 500px;
+  position: relative;
+  padding-top: .2em;
+  text-align: center;
+  transform: translate(5px);
+}
+
+.banner-content {
+  font-family: "Open Sans", sans-serif;
+  padding: 0 1rem;
+  position: absolute;
+  bottom: 0;
+  left: -.5rem;
+  top: .6rem;
+  max-width: 50em;
+  overflow: hidden;
+  width: 100%;
+}
+
+h2 {
+  font-size: 4rem;
+  color: #fff;
+  background-color: rgba(0, 0, 0, .5);
+  display: inline;
+  text-align: left;
+  line-height: 1.4;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2rem;
+  font-style: italic;
+  text-align: inherit;
+  margin-top: 8px;
+}
+
+.btn-big {
+  border-radius: 8px;
+  background-color: #333;
+  display: inline-block;
+  padding: .5em;
+  padding-left: .75em;
+  padding-right: .75em;
+  font-size: 1.125rem;
+  border-width: .3px;
+}
+
+.btn-big:hover {
+  background-color: #000;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
