@@ -13,53 +13,45 @@ body {
   padding: 0;
 }
 
-.img-flex {
+.banner {
+  position: relative;
   max-height: 500px;
-  display: block;
-  width: 100%;
-  padding-top: .01rem;
+  text-align: center;
+  overflow: hidden;
 }
 
-.banner {
-  overflow: hidden;
-  max-height: 500px;
-  position: relative;
-  padding-top: .2em;
-  text-align: center;
-  transform: translate(5px);
+.img-flex {
+  display: block;
+  width: 100%;
 }
 
 .banner-content {
-  font-family: "Open Sans", sans-serif;
-  padding: 0 1rem;
-  position: absolute;
+  max-width: 45em;
   bottom: 0;
-  left: -.5rem;
-  top: .6rem;
-  max-width: 50em;
-  overflow: hidden;
-  width: 100%;
+  margin: 0;
+  text-align: left;
+  float: right;
+  top: 50%;
+  position: absolute;
+  transform: translateY(-50%);
 }
 
 h2 {
   font-family: "Roboto Condensed", sans-serif;
-  font-size: 4rem;
-  color: #fff;
-  background-color: rgba(0, 0, 0, .5);
-  display: inline;
+  font-weight: bold;
+  font-size: 3rem;
   text-align: left;
-  line-height: 1.4;
+  margin: 0;
 }
 
 p {
-  font-family: "Roboto", sans-serif;
-  font-size: 2rem;
+  font-family: Roboto, sans-serif;
+  font-size: 1.5rem;
   font-style: italic;
-  text-align: inherit;
-  margin-top: 8px;
+  margin: 0;
 }
 
-.btn-big {
+.btn {
   border-radius: 8px;
   background-color: #333;
   display: inline-block;
@@ -70,11 +62,18 @@ p {
   border-width: .3px;
 }
 
-.btn-big:hover {
-  background-color: #000;
-}
-
 a {
   text-decoration: none;
   color: #fff;
+}
+
+.btn:hover {
+  background-color: #000;
+}
+
+.btn-big {
+  width: 100%;
+  max-width: 200px;
+  float: left;
+  position: relative;
 }
